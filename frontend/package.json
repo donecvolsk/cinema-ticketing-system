@@ -5,6 +5,7 @@
   "dependencies": {
     "cra-template": "1.2.0",
     "eslint-plugin-react": "^7.37.4",
+    "moment": "^2.30.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
@@ -21,9 +22,11 @@
     "extends": [
       "plugin:react/recommended",
       "react-app",
-      "react-app/jest"    
+      "react-app/jest"
     ],
-    "plugins": ["react"]
+    "plugins": [
+      "react"
+    ]
   },
   "browserslist": {
     "production": [
